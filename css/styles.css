@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    overflow-x: hidden; /* Not allowed to scroll to the sides */
+}
+
+header {
+    background-image: url(../images/Homepage%20intro.jpg); /* Picture for all the header parts */
+    background-size: cover;
+    height: 600px; /* Height for picture */
+	text-align: center;
+}
+
+.navbar {
+    font-size: 15px; /* Size of the text */
+    background-color: #fcdc5a;
+	height: 70px; /* Height for a menu system */
+}
+
+.navbar a{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black; /* Setting text to black */
+    text-transform: uppercase;	/* All uppercase*/
+}
+
+.navbar a:hover{
+    text-decoration: underline; /* When hover on it will be underline and white*/
+    color: #FFFFFF;
+}
+
+.logo img{
+	margin: 0px; /* No margin for logo picture in menu bar */
+}
+
+h8{ /* Logo in header */
+    text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+    z-index: 1; /* Ensuring text stays in front of the picture*/
+    position: relative;
+    top: 280px;
+    color: black;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    padding: 5px 10px;
+	letter-spacing: 1px;
+    font-size: 30px;	
+}
+h9{
+    text-align: center;
+    margin-left: -55px;
+    margin-right: auto;
+    z-index: 0;
+    position: relative;
+    top: 293px;/* Position from the top */
+    color: black;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    padding: 21px 20px;
+    letter-spacing: 1px;
+    font-size: 66px;
+    background-color: #FFFFFF;	
+}
+
+span {
+    background-color: #FCDC5A;
+    word-spacing: 0px;	
+}
+
+h2{
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    top: 280px;
+    color: black;
+}
+
+#intro {
+	margin-top: 50px;
+}
+
+#box {
+	margin-top: 50px;
+}
+
+.row {
+	margin-left: auto;
+	margin-right: auto;
+	align-content: center;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;	
+}
+
+p{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	color: black;
+}
+
+.sidepic {
+    margin-right: auto;
+    margin-left: auto;
+	margin-top: 20px;
+}
+
+h5 {
+	color: 	black;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(205, 205, 214), 0 0 5px rgb(255, 255, 255); /* Shadows for text to make it more visible*/
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.checked {
+  color: orange; /* Color of the stars */
+}
+
+#faq {
+	margin-top: 10px;
+    margin-bottom: 40px;
+    background-color: #fcdc5a5d; /* Background on FAQ */
+}
+
+#reviews {
+	margin-top: 50px;
+}
+
+.btnyel { /* CSS for button */
+	align-items: center;
+	z-index: 1;
+	position: relative;
+	bottom: 50px;
+	left: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+	color:#fcdc5a;
+	border: solid #000000;
+	border-radius: 5px; /* Make it look smooth (circle) */
+	padding: 5px 5px;
+}
+
+h3 {
+	margin-top: 20px;
+    margin-bottom: 30px;
+	text-align: center;
+	font-size: 30px;
+}
+
+#firstline{
+	margin-top: -30px;
+}
+
+.iconpic { /* CSS for icons */
+    margin-left: 30px;
+    margin-right: 25px;	
+    margin-bottom: 50px;
+	align-items: center;
+}
+
+h6 {
+    text-align: left;
+}
+
+.btn-dark{ /* CSS for buttons */
+    margin-left: 40%;
+    margin-right: 40%;
+	margin-top: -5px;
+    background-color: #fcdc5a;
+    color: black;
+    padding: 5px 10px; 
+}
+    
+.student {
+    margin-top: 80px;	
+	margin-left: 20px;
+}
+
+.infobox {
+	margin-top: 65px;
+}
+
+.star{
+    margin-left:60px;
+    margin-right: auto;
+	margin-top: 20px;
+	margin-bottom:-20px;
+}
+
+footer {/* CSS for footer */
+    text-align: center;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+	margin-top:10px;
+}
